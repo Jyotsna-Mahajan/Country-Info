@@ -1,16 +1,34 @@
-# React + Vite
+🌎 Country Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Country Info App is a React-based web application that allows users to search for any country and view detailed information such as its capital, region, population, and official languages. The app fetches live data from the REST Countries API and displays it in a clean, responsive Material UI card layout.
 
-Currently, two official plugins are available:
+🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Search for any country by its full name
+✅ Displays:
 
-## React Compiler
+1. Country flag
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Description of the Flag
 
-## Expanding the ESLint configuration
+3. Capital city
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Region & Subregion
+
+5. Population
+
+6. Official languages
+
+✅ Beautiful, responsive UI built with Material UI (MUI)
+✅ Error handling for invalid or unknown countries
+✅ Simple and clean design with card components
+
+⚙️ Tech Stack
+
+1. React.js – Frontend framework
+
+2. Material UI (MUI) – UI components and styling
+
+3. REST Countries API – Live country data source
+
+4. CSS – Custom styling for layout and visuals
